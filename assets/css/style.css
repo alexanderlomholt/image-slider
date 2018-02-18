@@ -1,11 +1,10 @@
 @import "components/reset.css";
 @import "components/containers.css";
-@import "components/navbuttons.css";
+@import "components/arrows.css";
+@import "components/bullets.css";
 
 
 /* standard styles */
 body {
   font-family: arial, verdana, sans-serif;
-  font-size: 12px;
 }
-

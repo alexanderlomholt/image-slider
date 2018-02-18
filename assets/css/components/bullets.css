@@ -1,0 +1,21 @@
+.bullets {
+  display: flex;
+  justify-content: center;
+}
+
+.bullet {
+  background-color: white;
+  border-radius: 50%;
+  padding: 7px;
+  margin: 20px 5px;
+  border: 1px solid rgb(200,200,200);
+}
+
+.bullet:hover {
+  border: 1px solid gray;
+}
+
+.active {
+  border: 1px solid #A7DED9FF;
+  background-color: #A7DED9FF;
+}

@@ -7,15 +7,29 @@
 </head>
 <body>
 
-  <!-- slider div -->
+  <!-- flexbox container -->
   <div class="container">
-    <div class="img-box">
-
+    <!-- image slider -->
+    <div class="frame">
+      <div class="img-box">
+        <span id="left">
+          <img src="icons/arrow_left.png" alt="arrow left" class="arrow">
+        </span>
+        <span id="right">
+          <img src="icons/arrow_right.png" alt="arrow right" class="arrow">
+        </span>
+      </div>
+      <!-- navigation bullets -->
+      <div class="bullets">
+        <span class="bullet active"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+        <span class="bullet"></span>
+      </div>
     </div>
   </div>
 
-
-
-  <script type="js/slider.js"></script>
+  <script type="text/javascript" src="assets/js/slider.js"></script>
 </body>
 </html>

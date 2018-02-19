@@ -10,13 +10,13 @@
 }
 
 .img-box {
-  height: 350px;
-  background-image: linear-gradient(160deg, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url('../../../images/image2.jpeg');
+  height: 450px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  border: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 1.0;
+  transition: opacity 0.5s ease;
 }

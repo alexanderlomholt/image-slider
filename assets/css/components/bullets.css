@@ -9,10 +9,13 @@
   padding: 7px;
   margin: 20px 5px;
   border: 1px solid rgb(200,200,200);
+  transition: all 0.3s ease;
 }
 
 .bullet:hover {
   border: 1px solid gray;
+  transform: scale(1.2);
+  background-color: #A7DED9FF;
 }
 
 .active {

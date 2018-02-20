@@ -72,3 +72,15 @@ bullets.forEach((i) => {
     counter = index;
   });
 });
+
+// automatic image sliding
+setInterval(() => {
+  imageForward();
+  bulletForward();
+}, 3000);
+
+
+
+
+
+
